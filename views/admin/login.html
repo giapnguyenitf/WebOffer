@@ -3,8 +3,42 @@
   <head>
     <meta charset="utf-8">
     <title>Login administrator</title>
+    <link rel="shortcut icon" href="../assets/images/favicon.png" type="image/png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/bootstrap/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/font-awesome-4.7.0/css/font-awesome.min.css">
   </head>
   <body>
-    //login form
+    <div class="col-md-4 col-md-offset-4">
+      <div class="row">
+        <form class="form-login-admin" action="index.html" method="get" style="margin-top:100px">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h4 style="text-align:center">Admin Login</h4>
+            </div>
+            <div class="panel-body">
+              <div class="input-group" style="margin-top:20px">
+                <span class="input-group-addon"><i class="fa fa-user-secret fa-fw"></i></span>
+                <input class="form-control" type="text" name="name-admin" value="" placeholder="Admin Name">
+              </div>
+              <div class="input-group" style="margin-top:30px;margin-bottom:20px">
+                <span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span>
+                <input class="form-control" type="text" name="pass-admin" value="" placeholder="PassWord">
+              </div>
+            </div>
+            <div class="panel-footer">
+              <div class="input-group">
+                <label for="" style="font-weight:100;color:#888"><input type="checkbox" name="remember-pass" value=""> Remember Password</label>
+              </div>
+              <div class="input-group">
+                <button class="btn btn-primary" type="submit" name="button">Login</button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
